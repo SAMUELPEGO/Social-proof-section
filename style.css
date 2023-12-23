@@ -85,12 +85,7 @@ span {
   color: hsl(333, 80%, 67%);
   font-weight: 100 !important;
 }
-body::before {
-  content: url("./images/bg-pattern-top-desktop.svg");
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 @media only screen and (max-width:375px) {
   .section2 div {
     min-width: 0px;
